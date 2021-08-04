@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
+
+  <body>
+    <!-- Link to highscores -->
+    <a href="highscores.html">View Highscores</a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+      <!-- Div for timer -->
+      <div id="currentTime"></div>
+      <!-- Div for quiz content -->
+      <div id="questionsDiv">
+        <h1>Marvel Quiz</h1>
+        <p>
+          Are you a Marvel fan? Well lets put your fan knowledge to the test!
+          Guess the following Marvel questions within the time limit. Keep in
+          mind that incorrect answers will penalize your score/time by ten
+          seconds! Goodluck!
+        </p>
+        <ul id="choicesUl"></ul>
+        <!-- Buttons -->
+        <button id="startTime">Start Quiz</button>
+      </div>
+    </div>
+
+    <script src="assets/Questions.js"></script>
+  </body>
+</html>
