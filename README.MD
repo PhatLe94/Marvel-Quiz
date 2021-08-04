@@ -1,3 +1,4 @@
+<img width="1319" alt="Marvel Quiz Screenshot" src="https://user-images.githubusercontent.com/87452473/128250895-e3bc8b66-1bcb-4a30-928e-5f8606adbefd.png">
 Marvel Quiz
 
 This Marvel Quiz was built using HTML, CSS, & Javascript.
